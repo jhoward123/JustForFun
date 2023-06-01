@@ -5,6 +5,7 @@ def main():
     name = input("Name: ")
     just_letters = ''.join([x for x in name if x.isalpha()])
 
+
     print(f"Hello, {name}.\nYou have {len(just_letters)} letters in your name.")
 
 
